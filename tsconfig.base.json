@@ -1,0 +1,36 @@
+{
+  "compileOnSave": false,
+  "exclude": [
+    "**/node_modules",
+    "**/tmp",
+    "**/dist",
+    "**/build",
+    "**/coverage",
+    "**/.cache"
+  ],
+  "include": [],
+  "compilerOptions": {
+    // add Bun type definitions
+    "types": ["bun-types"],
+
+    // enable latest features
+    "lib": ["esnext"],
+    "module": "esnext",
+    "target": "esnext",
+
+    "moduleResolution": "bundler",
+    "noEmit": true,
+    "allowImportingTsExtensions": true,
+    "moduleDetection": "force",
+
+    "jsx": "react-jsx",
+    "resolveJsonModule": true,
+
+    // best practices
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "isolatedModules": true,
+    "esModuleInterop": true
+  }
+}

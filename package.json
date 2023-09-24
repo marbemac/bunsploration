@@ -1,0 +1,14 @@
+{
+  "name": "bunsploration",
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "remix-basic": "bun run --cwd apps/remix-basic"
+  },
+  "devDependencies": {
+    "bun-types": "1.0.3",
+    "eslint": "8.50.0",
+    "typescript": "5.2.2"
+  }
+}
