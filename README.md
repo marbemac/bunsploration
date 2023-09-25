@@ -7,6 +7,7 @@ A set of example apps that explore the some of the latest app building patterns.
 - [x] `remix-basic`: Remix + bun's built in http server
 - [x] `remix-elysia`: Remix + elysia driving the http server
 - [ ] `remix-elysia-query`: Remix + elysia driving the http server + react-query
+- [ ] `vite-elysia-tanstack`: Vite + elysia + tanstack-router + react-query
 - [ ] `vinxi-*`: we'll see...
 
 ## Prereq
